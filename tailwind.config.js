@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'atardecer': "url('./src/assets/atardecer.jpg')" 
+        'atardecer': "url('../src/assets/atardecer.jpg')" 
 
       }
     },
