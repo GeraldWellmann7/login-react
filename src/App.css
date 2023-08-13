@@ -1,100 +1,101 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
 
 
 
-.container-login{
-    @apply flex justify-center bg-atardecer w-full h-screen items-center 
-}
 
-.inner-box{
-    @apply flex flex-col bg-white p-6 rounded-md w-[500px] h-[420px] grid gap-2
-}
+    .container-login{
+        @apply flex justify-center bg-atardecer w-full h-screen items-center 
+    }
 
-.container-control{
-    @apply flex flex-col gap-2 w-full 
-}
+    .inner-box{
+        @apply flex flex-col bg-white p-6 rounded-md w-[300px] md:w-[500px] h-[420px] grid gap-2 
+    }
 
-.container-control label{
-    @apply font-bold text-lg
-}
+    .container-control{
+        @apply flex flex-col gap-2  w-full 
+    }
 
-.container-control input{
-    @apply h-[35px] p-3 border border-solid
-}
+    .container-control label{
+        @apply font-bold text-lg
+    }
 
-.footer-login{
-    @apply flex flex-col justify-center p-2
-}
+    .container-control input{
+        @apply h-[35px] p-3 border border-solid
+    }
 
-.footer-login button{
-    @apply bg-black text-white h-[40px] mt-4 hover:bg-zinc-900
-}
+    .footer-login{
+        @apply flex flex-col justify-center p-2
+    }
 
-.footer-login p{
-    @apply flex justify-center mt-3
-}
+    .footer-login button{
+        @apply bg-black text-white h-[40px] mt-4 hover:bg-zinc-900
+    }
 
-.footer-login span{
-    @apply hover:text-blue-700
-}
+    .footer-login p{
+        @apply flex justify-center mt-3
+    }
 
-.login{
-    @apply font-bold text-3xl
-}
+    .footer-login span{
+        @apply hover:text-blue-700
+    }
 
-.container-signup{
-    @apply flex justify-center bg-atardecer w-full h-screen items-center  
-}
+    .login{
+        @apply font-bold text-3xl
+    }
 
-.inner-box-signup{
-    @apply flex flex-col bg-white p-6 rounded-md w-[500px] h-[510px] grid gap-3
-}
+    .container-signup{
+        @apply flex justify-center bg-atardecer w-full h-screen items-center  
+    }
 
-.registro{
-    @apply font-bold text-3xl
-}
+    .inner-box-signup{
+        @apply flex flex-col bg-white p-6 rounded-md w-[300px] md:w-[500px] h-[510px] grid gap-3
+    }
 
-.footer-signup{
-    @apply flex flex-col justify-center p-2 
-}
+    .registro{
+        @apply font-bold text-3xl
+    }
 
-.footer-signup button{
-    @apply bg-black text-white h-[40px] mt-4 hover:bg-zinc-900
-}
+    .footer-signup{
+        @apply flex flex-col justify-center p-2 
+    }
 
-.footer-signup p{
-    @apply flex flex-col items-center mt-5
-}
+    .footer-signup button{
+        @apply bg-black text-white h-[40px] mt-4 hover:bg-zinc-900
+    }
 
-.footer-signup span{
-    @apply font-bold hover:text-blue-700 mt-1
-}
+    .footer-signup p{
+        @apply flex flex-col items-center mt-5
+    }
 
-.home{
-    @apply flex flex-col justify-center items-center w-full h-screen bg-atardecer
-}
+    .footer-signup span{
+        @apply font-bold hover:text-blue-700 mt-1
+    }
 
-.container-links{
-    @apply flex flex-col bg-white p-6 rounded-md w-[500px] h-[420px] grid gap-1
-}
+    .home{
+        @apply flex flex-col justify-center items-center w-full h-screen bg-atardecer 
+    }
 
-.login-firebase{
-    @apply flex justify-center font-bold text-5xl mb-14
-}
+    .container-links{
+        @apply flex flex-col bg-white p-6 rounded-md w-[300px] md:w-[500px] h-[420px] grid gap-1 
+    }
 
-
-.links h1{
-    @apply bg-black text-white hover:bg-zinc-900 p-2 flex justify-center 
-}
+    .login-firebase{
+        @apply flex justify-center font-bold text-3xl md:text-5xl mb-14  w-[250px] md:w-[450px] 
+    }
 
 
-.home button{
-    @apply bg-black text-white hover:bg-zinc-900 p-2 flex justify-center w-[450px] h-[45px]
-}
+    .links h1{
+        @apply bg-black text-white hover:bg-zinc-900 p-2 flex justify-center w-[250px] md:w-[450px] 
+    }
 
-.bienvenido{
-    @apply flex justify-center text-xl font-bold
-}
+
+    .home button{
+        @apply bg-black text-white hover:bg-zinc-900 p-2 flex justify-center w-[250px] md:w-[450px] h-[45px] 
+    }
+
+    .bienvenido{
+        @apply flex justify-center text-lg md:text-xl font-bold w-[250px] md:w-[450px]  
+    }
 

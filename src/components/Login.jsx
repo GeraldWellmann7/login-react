@@ -9,7 +9,9 @@ export function Login() {
   const [values, setValues] = useState({ email: "", pass: "" });
   const [errorMsg, setErrorMsg] = useState([]);
   const [submitButtonDisabled, setSubmitButtonDisabled] = useState(false);
-
+  const handleRefreshClick = () => {
+    window.location.reload();
+   }
   
   const Iniciar = () => {
     if (!values.email || !values.pass) {
@@ -22,6 +24,7 @@ export function Login() {
       .then(async (res) => {
         setSubmitButtonDisabled(false);
         navigate("/");
+        handleRefreshClick();
       })
       .catch((err) => {
         setSubmitButtonDisabled(false);

@@ -10,6 +10,7 @@ export function Signup() {
   const [errorMsg, setErrorMsg] = useState([]);
   const [submitButtonDisabled, setSubmitButtonDisabled] = useState(false);
 
+
   const registro = () => {
     if (!values.name || !values.email || !values.pass) {
       setErrorMsg("Llene todos los campos");
@@ -24,13 +25,16 @@ export function Signup() {
         await updateProfile(user, {
           displayName: values.name,
         });
-        navigate("/");
+        navigate("/login");
+        
       })
       .catch((err) => {
         setSubmitButtonDisabled(false);
         setErrorMsg(err.message);
       });
   };
+
+  
 
   return (
     <div className="container-signup">
